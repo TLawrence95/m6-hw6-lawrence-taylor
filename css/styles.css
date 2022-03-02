@@ -1,0 +1,162 @@
+/*==========================
+
+Universal Styling
+
+==========================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background: url(../images/full-bloom.png) fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+ }
+
+ @font-face {
+    font-family: breeserif;
+    src: url(../fonts/breeserif-regular.ttf);
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway-light.ttf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0;
+    font-family: breeserif;
+    color: teal;
+ }
+
+ p {
+     line-height: 200%;
+     margin: 20px 0;
+     font-family: raleway;
+ }
+
+ /*==========================
+
+Header Styling
+
+==========================*/
+
+header {
+    background: white;
+    padding: 10px 20px 0px 20px;
+    border-bottom: 3px solid grey;
+}
+
+nav {
+    display: flex;
+}
+
+
+.logo {
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    background: teal;
+    padding: 10px 20px 0px 20px;
+    font-size: 24px;
+    font-family: breeserif;
+}
+
+
+.link {
+    align-self: center;
+    color: teal;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: breeserif;
+    margin: 0 10px;
+}
+
+nav p {
+   align-self: center;
+    color: grey;
+    font-size: 18px;
+    font-family: breeserif;
+}
+
+/*==========================
+
+About Styling
+
+==========================*/
+
+main.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 30px;
+    width: 1000px;
+}
+
+#about {
+    margin-right: auto;
+    background: white;
+    padding: 20px 45px;
+    width: 600px;
+}
+
+#about > img {
+    float: left;
+    margin: 10px 20px 0 0;
+    box-shadow: 5px 5px 10px grey;
+}
+
+#socials {
+    margin-left: auto;
+    align-self: flex-start;
+    text-align: center;
+    background: white;
+    padding: 20px 45px;
+    width: 200px;
+}
+
+#socals > a {
+    margin: 10px 10px;
+}
+
+#socials a img {
+    box-shadow: 5px 5px 10px grey;
+    gap: 10px;
+}
+
+h1, h2 {
+    padding: 5px 0;
+    border-bottom: 2px solid grey;
+}
+
+
+
+/*==========================
+
+Footer Styling
+
+==========================*/
+
+footer {
+    margin-top: auto;
+    background: teal;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 5px solid grey;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+}

@@ -107,7 +107,6 @@ main.container {
     float: left;
     margin: 10px 20px 0 0;
     box-shadow: 5px 5px 10px grey;
-    border-radius: 15px;
 }
 
 #socials {
@@ -126,6 +125,7 @@ main.container {
 #socials a img {
     box-shadow: 5px 5px 10px grey;
     gap: 10px;
+    border-radius: 10px;
 }
 
 h1, h2 {
